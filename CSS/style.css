@@ -7,25 +7,45 @@ body {
 }
 
 #login-Form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+#greeting {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    justify-content: center;
+}
 #weather {
-  margin-top: 20px;
-  width: 90vw;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-align: right;
 }
 
 #clock {
-  font-size: 30px;
-  color: white;
+    font-size: 30px;
+    color: white;
+}
+
+
+#todo-form {
+    text-align: left;
+}
+#todo-list {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
 }
 #quote {
-  font-size: 20px;
-  font-weight: 700;
-  color: white;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    justify-content: center;
 }
