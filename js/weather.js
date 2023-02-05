@@ -13,7 +13,7 @@ function onGeoOk(position){
         const Text_Humdity = document.getElementById("Humidity");
 
         Text_CityWeather.innerText = `${data.name} / ${data.weather[0].main}`;
-        Text_CurrentTemp.innerText = `\n현재온도 ${data.main.temp}`;
+        Text_CurrentTemp.innerText = `\n현재온도 ${data.main.temp}℃`;
         Text_TempMinMax.innerText = `\n최저 ${data.main.temp_min}℃ / 최고 ${data.main.temp_max}℃`;
         Text_Humdity.innerText = `\n습도 ${data.main.humidity}%`;
         });
